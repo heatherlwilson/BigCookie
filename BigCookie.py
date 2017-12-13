@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     # Print Terminal Table Output of Hex and Decimal Format
     click.secho(
-        '\n-------- F5 BIG-IP Persistance Cookie Decoder --------\n', fg='green')
+        '\n-------- F5 BIG-IP Persistence Cookie Decoder --------\n', fg='green')
     click.secho('[*] Cookie to Decode: %s \n' % encstr, fg='green')
     table_data = [
         ['Type', 'Encoded Format', 'Hexadecimal', 'Decimal'],
